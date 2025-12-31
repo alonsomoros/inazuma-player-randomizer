@@ -1,40 +1,61 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { mockCharacters } from '../../data/mockCharacters';
-import { loadCharacters } from '../../utils/csvLoader';
+import { getCharacters } from '../../api/characterApi';
 import { CharacterModal } from '../ui/CharacterModal';
 import type { Character } from '../../types';
 
 export const ScoutView: React.FC = () => {
-  const [characters, setCharacters] = useState<Character[]>(mockCharacters); // Fallback to mock
   const [selectedChar, setSelectedChar] = useState<Character | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [totalCount, setTotalCount] = useState(0);
 
+  // Initial check to get total count
   useEffect(() => {
-    loadCharacters()
+    getCharacters(0, 1)
       .then(data => {
-        if (data.length > 0) {
-          setCharacters(data);
-          console.log(`Loaded ${data.length} characters.`);
-        }
+        setTotalCount(data.totalElements);
+        setIsLoading(false);
       })
-      .catch(err => console.error("Failed to load CSV", err))
-      .finally(() => setIsLoading(false));
+      .catch(err => {
+        console.error("Failed to connect to API", err);
+        setIsLoading(false);
+      });
   }, []);
 
-  const handleRandomScout = () => {
-    if (isAnimating) return;
+  const handleRandomScout = async () => {
+    if (isAnimating || totalCount === 0) return;
     setIsAnimating(true);
     
-    // Simulate "Scouting" effect delay
-    setTimeout(() => {
-      const random = characters[Math.floor(Math.random() * characters.length)];
-      setSelectedChar(random);
-      setIsModalOpen(true);
-      setIsAnimating(false);
-    }, 1500); // 1.5s delay for effect
+    // Simulate "Scouting" effect delay while we fetch
+    // We start fetching immediately but wait at least 1.5s for the animation
+    const minAnimationTime = 1500;
+    const startTime = Date.now();
+
+    try {
+        // Pick a random index (page)
+        const randomPage = Math.floor(Math.random() * totalCount);
+        const response = await getCharacters(randomPage, 1);
+        
+        const character = response.content[0];
+        
+        // Calculate remaining wait time
+        const elapsed = Date.now() - startTime;
+        const remaining = Math.max(0, minAnimationTime - elapsed);
+
+        setTimeout(() => {
+            if (character) {
+                setSelectedChar(character);
+                setIsModalOpen(true);
+            }
+            setIsAnimating(false);
+        }, remaining);
+
+    } catch (error) {
+        console.error("Scout failed", error);
+        setIsAnimating(false);
+    }
   };
 
   return (
@@ -61,7 +82,7 @@ export const ScoutView: React.FC = () => {
 
         <button
           onClick={handleRandomScout}
-          disabled={isAnimating || isLoading}
+          disabled={isAnimating || isLoading || totalCount === 0}
           className={`
             relative z-10 w-64 h-64 rounded-full flex items-center justify-center
             bg-inazuma-dark border-4 border-inazuma-blue

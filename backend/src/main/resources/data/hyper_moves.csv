@@ -1,0 +1,135 @@
+﻿All of the following can be bought from the Spirit Market, most Keshins can be unlocked after clearing GO2 route, Totems after Galaxy;;;;;;;;;
+Name;Type;Element;Passive;Hissatsu Name;Hissatsu Type;Power;;;
+Burning Overdrive;Awakening;;"Own AT/DF +30%
+Shot AT +20%
+Focus AT/DF +20%
+Movement Speed Increase";;;;;Miximax Buff;AT/DF +50%
+Keeper's Grit;Awakening;;"Own AT/DF +40%
+Final KP +20% (?) ";;;;;Keshin Buff;AT/DF +40%
+Ironclad Guadian;Awakening;;"Own AT +30%
+Own DF +50%
+Own Castle Wall DF +30%
+Movement Speed Increase (?)";;;;;Additionally, Miximax and Keshin grant an additional hissatsu after activation;
+Elemental Catalyst;Awakening;;"Own AT/DF +30%
+Own Focus AT/DF +20%
+Elemental Advantage Effectiveness +20%
+Movement Speed Increase";;;;;Armed Buff;AT/DF +20%
+Instant Burst;Awakening;;"Own AT/DF +30%
+Focus AT/DF +20%
+Reduce hissatsu cooldowns by 50%
+Massive Movement Speed Increase";;;;;;"Additionally, Armed gives a 50% boost to final hissatsu value after calculations (under investigation)
+i.e. (Shot AT * AT Buffs) + (Hissatsu Power * AT Buffs)*1.5"
+Standard Bearer Brynhildr;Keshin;林 (Forest);For nearby players, Castle Wall DF +10%;Valkyrie's Signal;Defense;100;;Awakenings, Keshin, Totems and Armed last 30s, Miximax lasts 20s;
+Defender of Earth Atlas;Keshin;山 (Mountain);Save rate +5%;Majin the Hand;Keep;85;;Totems/Souls;AT/DF +25%
+Winged Steed Pegasus;Keshin;風 (Wind);When making a pass, Team Bond Power +50%;Pegasus Bolt;Offense;100;;;AT/DF +10% for each focus battle won/goal scored, up to 40% (under investigation)
+Master Conductor Maestro;Keshin;林 (Forest);When a player of the same element is nearby, Own Focus AT & DF +10%;Atomic Harmonic;Shoot;85;;;Stacks remain for the rest of the match, but are only active when totem/soul is active
+Heroic Swordsman Lancelot;Keshin;火 (Fire);When a player of a different element is nearby, Own Shot AT +10%;Lancelot Lunge;Shoot;100;;;In addition, Cooldown is 60s compared to every other Hyper Move (90s)
+Brave Samurai Musashi;Keshin;山 (Mountain);On the opposition half of the pitch, Own Shot AT +10%;Bushin Blades;Shoot;100;;;
+Thin Air Slasher Sickle Weasel;Keshin;風 (Wind);On your half of the pitch, Own Scramble AT & DF +20%;Air Cut;Offense;100;;;
+Supernatural Wingman Thunderbird;Keshin;風 (Wind);For players of the same element, Scramble AT & DF +10%;Thunderclaw;Shoot;85;;;
+Tin Titan Goliath;Keshin;風 (Wind);Save rate +5%;Titanic Shield;Keep;100;;;
+Master Magician Trickster;Keshin;林 (Forest);Team Breach Rate +10%;Magician's Box;Shoot;85;;;
+Drake Chevalier Dragoon;Keshin;風 (Wind);On your half of the pitch, Own Focus AT & DF +20%;Dragon Storm;Defense;100;;;
+Raven Wings Corvus;Keshin;山 (Mountain);Team Dash Foul Rate -15%;Roc and Roll;Shoot;100;;;
+Front-Line Fighter, White Pawn;Keshin;火 (Fire);For players of the same element, Castle Wall DF +10%;Rat-a-Tat Pass;Offense;85;;;
+Hypersonic Fighter Scramjet;Keshin;風 (Wind);On the opposition's half of the pitch, Own Scramble AT & DF +15%;Hyperdrive;Offense;100;;;
+Ruler of the Seven Seas Poseidon;Keshin;風 (Wind);On the opposition half of the pitch, Own Shot AT +10%;Trident Torpedo;Shoot;100;;;
+Giant Usurper Gigante;Keshin;山 (Mountain);When winning a Focus or Scramble Battle, Team Tension +10%;Giga Knuckle Sandwich;Keep;100;;;
+Snow Nymph Chione;Keshin;風 (Wind);When a player of the same element is nearby, Own Shot AT +20%;Icicle Road;Shoot;85;;;
+Metal Mammoth Behemoth;Keshin;山 (Mountain);Save rate +5%;Titanic Shield;Keep;100;;;
+Armoured Cavalry White Knight;Keshin;山 (Mountain);For players of different elements, Focus AT & DF +10%;Destrier Charge;Shoot;85;;;
+Man-Made Monster Plasma Shadow DF;Keshin;風 (Wind);On your half of the pitch, Team Focus AT & DF +10%;Shadow Guard;Defense;85;;;
+Dicey Dicer Lot;Keshin;山 (Mountain);When winning a Focus or Scramble Battle, Team Tension +10%;Lucky Dice;Keep;100;;;
+Living Nightmare Phantasma;Keshin;林 (Forest);For nearby players, Focus AT & DF +10%;Black Briars;Offense;100;;;
+Gigantic Garrison Gargantua;Keshin;山 (Mountain);When making a pass, Team Bond Power +50%;Giga Knuckle Sandwich;Keep;100;;;
+Sun Deity Apollo;Keshin;火 (Fire);For players of the same position, Shot AT +10%;Solar Flare;Shoot;100;;;
+Lord of All Waters Neptune;Keshin;風 (Wind);On the opposition's half of the pitch, Own Focus AT & DF +15%;Trident Torpedo;Shoot;100;;;
+Fire Jotun Surtr;Keshin;火 (Fire);When a player of the same element is nearby, Own Shot AT +20%;Fireball Storm;Shoot;70;;;
+Wise Monarch White King;Keshin;火 (Fire);When winning a Focus or Scramble Battle, Team Tension +10%;Crown Fire;Keep;100;;;
+Royal Enchantress White Queen;Keshin;林 (Forest);On your half of the pitch, Team Focus AT & DF +10%;Checkmate;Shoot;85;;;
+Watchtower Sentinel White Rook;Keshin;山 (Mountain);When a player of the same element is nearby, Own Castle Wall DF +20%;Titanic Slam;Defense;100;;;
+Divine Messenger White Bishop;Keshin;林 (Forest);For nearby players, Scramble AT & DF +10%;Dark Space;Defense;85;;;
+Dark Demigod Black Butcher;Keshin;林 (Forest);For players of the same position, Shot AT +10%;Executioner's Axe;Shoot;100;;;
+Light-Speed Knight Sir Rabby;Keshin;林 (Forest);For player of the same position, Scramble AT & DF +10%;Full Moon Fever;Shoot;100;;;
+Supreme War Chief Pendragon;Keshin;無 (Void);Team Breach Rate +10%;Dark Reaver;Shoot;100;;;
+Prehistoric Chieftain Jagwarrior;Keshin;風 (Wind);When a player of the same element is nearby, Own Focus AT & DF +20%;Hunter's Spear;Defense;100;;;
+Sovereign of the Skies Feng-Huang;Keshin;火 (Fire);When outside the zone, Own Scramble AT & DF +20%;Firebird Flight;Shoot;100;;;
+Goddess of Just Warfare Athene;Keshin;風 (Wind);When making a pass, Team Bond Power +50%;Athenian Assault;Shoot;100;;;
+Cursed Wolf Lycaon;Keshin;林 (Forest);On the opposition's half of the pitch, Own Focus AT & DF +15%;Forked Edge;Offense;100;;;
+Prince of the Astral Plane Zodiac;Keshin;山 (Mountain);Team Dash Foul Rate -15%;Crimson Prison;Shoot;100;;;
+Warrior of the North Xuan-Wu;Keshin;山 (Mountain);For nearby players, Castle Wall DF +10%;Tortoise Shell;Defense;100;;;
+Man-Made Monster Plasma Shadow GK;Keshin;林 (Forest);Team Tension Breach Cost -20%;Shadow Hand;Keep;85;;;
+Man-Made Monster Plasma Shadow SH;Keshin;火 (Fire);When a player of a different element is nearby, Own Shot AT +20%;Shadow Kick;Shoot;85;;;
+Barbaric Beast of the Abyss Atlanticus;Keshin;風 (Wind);Team Tension Breach Cost -20%;Gigabite Geyser;Keep;100;;;
+Star-Crossed Souls The Lovers ♀;Keshin;風 (Wind);On your half of the pitch, Team Focus AT & DF +10%;Heart's Desire;Shoot;100;;;
+Star-Crossed Souls The Lovers ♂;Keshin;山 (Mountain);On the opposition's half of the pitch, Team Focus AT & DF +10%;Heart's Desire;Shoot;100;;;
+Bob-Tailed Bombshell Loverette;Keshin;林 (Forest);When making a pass, Team Bond Power +50%;Stop it Poppet;Keep;100;;;
+Lord of Daemons Evera;Keshin;山 (Mountain);Team Tension Breach Cost -20%;Mortal Smash;Shoot;100;;;
+Sacred Serpent White Wyvern;Keshin;風 (Wind);For players of the same position, Shot AT +10%;White Breath;Shoot;100;;;
+Man-Made Monster Plasma Shadow AT;Keshin;山 (Mountain);When a player of a different element is nearby, Own Focus AT & DF +20%;Shadow Sword;Offense;85;;;
+Sacred Lance Clearbunny;Keshin;火 (Fire);For players of the same position, Shot AT +10%;Shadow Empress;Shoot;100;;;
+Entertainer;Keshin;林 (Forest);For players of different positions, Focus AT & DF +10%;Dazzling Carnival;Offense;100;;;
+Wall Titan Warborg;Keshin;山 (Mountain);Team Tension Breach Cost -20%;Fortress of Despair;Defense;100;;;
+The Victory Genie Majin;Keshin;火 (Fire);When a player of a different element is nearby, Own Shot AT +20%;Meteoric Fire Tornado V;Shoot;100;;;
+Heavenly Horse Arch Pegasus;Keshin;風 (Wind);When a player of a different element is nearby, Own Focus AT & DF +20%;Pegasus Punch;Shoot;100;;;
+Lord of Birds and Beasts Griffin;Keshin;火 (Fire);On the opposition's half of the pitch, Team Focus AT & DF +10%;Flamberge;Shoot;100;;;
+Holy Sword Paladin Arthur;Keshin;無 (Void);For players of different elements, Shot AT +10%;Caliburn;Shoot;100;;;
+Sorceress of the Dawn Amaterasu;Keshin;火 (Fire);When a player of the same element is nearby, Own Focus AT & DF +20%;Aurora Arrow;Defense;100;;;
+The Great Genie Majin;Keshin;山 (Mountain);Save rate +5%;Majin the Great;Keep;100;;;
+Bond Transform;?;;"Own AT/DF +10%
+Transforms into an ally player on the field (Copies a portion(?) of stats and moves)";;;;;;
+Fiery Hellhound Direwolf;Keshin;火 (Fire);On the opposition's half of the pitch, Team Focus AT & DF +10%;Burning Claws;Offense;100;;;
+Midnight Sun-Bringer Glenr;Keshin;山 (Mountain);On your half of the pitch, Team Focus AT & DF +15%;Demon's Bolt;Offense;100;;;
+Discordian Witch Eris;Keshin;風 (Wind);On the opposition's half of the pitch, Team Focus AT & DF +10%;Sordid Thorns;Defense;100;;;
+Wolf Totem;Totem;火 (Fire);;Wolf Strike;Shoot;100;;;
+Falcon Totem;Totem;風 (Wind);;Falcon Glide;Shoot;100;;;
+Lion Totem;Totem;林 (Forest);;Lion Assault;Shoot;100;;;
+Gooma Totem;Totem;火 (Fire);;Gooma Inferno;Shoot;100;;;
+Doruga Totem;Totem;火 (Fire);;Doruga Assault;Shoot;100;;;
+Belion Totem;Totem;風 (Wind);;Belion Whip;Shoot;100;;;
+Ixaal Totem;Totem;風 (Wind);;Ixaal Canon;Shoot;100;;;
+Begiran Totem;Totem;無 (Void);;Begiran Whip;Shoot;100;;;
+Dragnova Totem;Totem;無 (Void);;Dragnova Strike;Shoot;100;;;
+Goliger Totem;Totem;山 (Mountain);;Goliger Assault;Shoot;100;;;
+Silver Wolf Totem;Totem;林 (Forest);;Silver Wolf Strike;Shoot;100;;;
+Bald Eagle Totem;Totem;山 (Mountain);;Bald Eagle Glide;Shoot;100;;;
+Pelion Totem;Totem;風 (Wind);;Pelion Whip;Shoot;100;;;
+Vairaas Totem;Totem;山 (Mountain);;Vairaas Canon;Shoot;100;;;
+Horse Totem;Totem;風 (Wind);;Horse Sprint;Offense;100;;;
+Dohma Totem;Totem;山 (Mountain);;Dohma Driller;Offense;100;;;
+Peacock Totem;Totem;林 (Forest);;Peacock Radiance;Offense;100;;;
+Serow Totem;Totem;風 (Wind);;Serow Cabriole;Offense;100;;;
+Grizzly Totem;Totem;山 (Mountain);;Grizzly Smash;Offense;100;;;
+Phoenichias Totem;Totem;風 (Wind);;Phoenichias Radiance;Offense;100;;;
+Gusfii Totem;Totem;山 (Mountain);;Gusfii Bomb;Offense;100;;;
+Redio Totem;Totem;無 (Void);;Redio Cabriole;Offense;100;;;
+Gryphbang Totem;Totem;無 (Void);;Gryphbang Smash;Offense;100;;;
+Univolt Totem;Totem;火 (Fire);;Univolt Sprint;Offense;100;;;
+Pamerio Totem;Totem;林 (Forest);;Pamerio Cabriole;Offense;100;;;
+Brachias Totem;Totem;火 (Fire);;Brachias Radiance;Offense;100;;;
+Moon Bear Totem;Totem;火 (Fire);;Moon Bear Smash;Offense;100;;;
+Zooma Totem;Totem;林 (Forest);;Zooma Driller;Offense;100;;;
+Crimson Pegasus Totem;Totem;火 (Fire);;Crimson Pegasus Charge;Offense;100;;;
+Pegasus Totem;Totem;風 (Wind);;Pegasus Charge;Offense;100;;;
+Fox Totem;Totem;林 (Forest);;Fox Mirage;Defense;100;;;
+Horned Owl Totem;Totem;風 (Wind);;Horned Owl Swipe;Defense;100;;;
+Buffalo Totem;Totem;火 (Fire);;Buffalo Crusher;Defense;100;;;
+Ratel Totem;Totem;風 (Wind);;Ratel Claw;Defense;100;;;
+Gandoran Totem;Totem;山 (Mountain);;Gandoran Crusher;Defense;100;;;
+Kulupe Totem;Totem;無 (Void);;Kulupe Claw;Defense;100;;;
+Flamey Totem;Totem;火 (Fire);;Flamey Mirage;Defense;100;;;
+Dandrol Totem;Totem;林 (Forest);;Dandrol Crusher;Defense;100;;;
+Owl Totem;Totem;山 (Mountain);;Owl Swipe;Defense;100;;;
+Gyorom Totem;Totem;火 (Fire);;Gyorom Claw;Defense;100;;;
+Mammoth Totem;Totem;風 (Wind);;Mammoth Stomp;Keep;100;;;
+Gorius Totem;Totem;火 (Fire);;Gorius Swing;Keep;100;;;
+Gigiras Totem;Totem;無 (Void);;Gigiras Shield;Keep;100;;;
+Magnatas Totem;Totem;火 (Fire);;Magnatas Stomp;Keep;100;;;
+Dolmega Totem;Totem;山 (Mountain);;Dolmega Stomp;Keep;100;;;
+Grimron Totem;Totem;山 (Mountain);;Grimron Shield;Keep;100;;;
+Gyrius Totem;Totem;林 (Forest);;Gyrius Bounce;Defense;100;;;
+Delpinus Totem;Totem;林 (Forest);;Delphinus Sonar;Keep;100;;;
+Garius Totem;Totem;山 (Mountain);;Garius Bounce;Defense;100;;;
+Mossfii Totem;Totem;林 (Forest);;Mossfii Burst;Keep;100;;;
+Angydra Totem;Totem;風 (Wind);;Angydra Combo;Keep;100;;;
+Saranarja Totem;Totem;林 (Forest);;Saranarja Combo;Keep;100;;;
