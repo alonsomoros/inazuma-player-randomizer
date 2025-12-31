@@ -16,8 +16,8 @@ COPY ../frontend/dist ./src/main/resources/static
 # Build the application
 RUN mvn clean package -DskipTests
 
-# Runtime stage
-FROM eclipse-temurin:17-jre-alpine
+# Runtime stage - Using Debian-based image for ARM compatibility
+FROM eclipse-temurin:17-jre
 
 WORKDIR /app
 
