@@ -1,6 +1,9 @@
 import type { Character, PageResponse, CharacterFilters } from '../types';
 
-const API_URL = 'http://localhost:8080/api/characters';
+// Use relative URL in production, localhost in development
+const API_URL = import.meta.env.DEV 
+  ? 'http://localhost:8080/api/characters'
+  : '/api/characters';
 
 export const getCharacters = async (
   page: number = 0,
