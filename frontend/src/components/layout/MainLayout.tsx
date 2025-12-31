@@ -22,7 +22,7 @@ export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }
       </header>
 
       {/* Main Content Area */}
-      <main className="flex-1 relative z-10 w-full max-w-[1920px] mx-auto p-4">
+      <main className="flex-1 relative z-10 w-full max-w-[1920px] mx-auto p-4 pb-20">
         {children}
       </main>
 

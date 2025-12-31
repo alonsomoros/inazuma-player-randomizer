@@ -92,8 +92,8 @@ export const Encyclopedia: React.FC = () => {
 
   return (
     <div className="w-full flex flex-col p-2 sm:p-4 max-w-7xl mx-auto">
-      {/* Search & Filter Bar */}
-      <div className="mb-4 space-y-4 flex-shrink-0">
+      {/* Search & Filter Bar - STICKY */}
+      <div className="sticky top-0 z-30 bg-inazuma-dark/95 backdrop-blur-md py-4 mb-4 space-y-4 flex-shrink-0 border-b border-inazuma-blue/20">
         
         {/* Search */}
         <div className="relative">
@@ -125,13 +125,13 @@ export const Encyclopedia: React.FC = () => {
         </div>
       </div>
 
-      {/* Grid */}
+      {/* Grid - Natural Flow */}
       {isLoading ? (
-        <div className="flex items-center justify-center flex-1">
+        <div className="flex items-center justify-center min-h-[400px]">
            <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-inazuma-blue"></div>
         </div>
       ) : (
-        <div className="w-full overflow-y-auto pr-2 custom-scrollbar min-h-[400px] max-h-[calc(100vh-450px)] border border-inazuma-blue/10 bg-inazuma-dark/20 p-4 rounded-xl">
+        <div className="w-full min-h-[400px] border border-inazuma-blue/10 bg-inazuma-dark/20 p-4 rounded-xl mb-16">
           <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 pb-4">
             {characters.map(char => (
               <motion.div
