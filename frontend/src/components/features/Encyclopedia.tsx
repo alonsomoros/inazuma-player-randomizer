@@ -131,7 +131,7 @@ export const Encyclopedia: React.FC = () => {
            <div className="animate-spin rounded-full h-16 w-16 border-b-2 border-inazuma-blue"></div>
         </div>
       ) : (
-        <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar min-h-0">
+        <div className="pr-2">
           <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 pb-4">
             {characters.map(char => (
               <motion.div

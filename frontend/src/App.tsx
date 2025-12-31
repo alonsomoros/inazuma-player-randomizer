@@ -33,7 +33,7 @@ function App() {
         </button>
       </div>
 
-      <div className="flex-1 flex flex-col justify-center items-center w-full">
+      <div className="w-full">
         {activeTab === 'scout' ? (
           <ScoutView />
         ) : (
