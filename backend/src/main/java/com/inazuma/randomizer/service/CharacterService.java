@@ -44,4 +44,8 @@ public class CharacterService {
 
         return repository.findAll(spec, pageable);
     }
+
+    public List<String> getTeams() {
+        return repository.findDistinctTeams();
+    }
 }
