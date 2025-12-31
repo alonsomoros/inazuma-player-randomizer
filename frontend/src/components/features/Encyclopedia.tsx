@@ -83,15 +83,15 @@ export const Encyclopedia: React.FC = () => {
     { display: 'All', value: 'All' },
     { display: 'Fire', value: 'Fire' },
     { display: 'Wind', value: 'Wind' },
-    { display: 'Forest (Wood)', value: 'Wood' },
-    { display: 'Mountain (Earth)', value: 'Earth' }
+    { display: 'Forest', value: 'Forest' },
+    { display: 'Mountain', value: 'Mountain' }
   ];
   
   const positions = ['All', 'GK', 'DF', 'MF', 'FW'];
   const genders = ['All', 'Male', 'Female']; 
 
   return (
-    <div className="w-full h-full flex flex-col p-2 sm:p-4 max-w-7xl mx-auto overflow-auto">
+    <div className="w-full flex flex-col p-2 sm:p-4 max-w-7xl mx-auto">
       {/* Search & Filter Bar */}
       <div className="mb-4 space-y-4 flex-shrink-0">
         

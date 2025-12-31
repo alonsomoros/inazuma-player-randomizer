@@ -2,7 +2,7 @@ import React from 'react';
 
 export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div className="h-screen relative bg-inazuma-dark overflow-hidden flex flex-col font-orbitron">
+    <div className="min-h-screen relative bg-inazuma-dark overflow-y-auto flex flex-col font-orbitron">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-hex-pattern opacity-10 pointer-events-none"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-inazuma-blue/10 to-transparent pointer-events-none"></div>
@@ -17,7 +17,7 @@ export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }
       </header>
 
       {/* Main Content Area */}
-      <main className="flex-1 relative z-10 w-full max-w-[1920px] mx-auto p-4 flex flex-col overflow-hidden">
+      <main className="flex-1 relative z-10 w-full max-w-[1920px] mx-auto p-4 flex flex-col">
         {children}
       </main>
 
