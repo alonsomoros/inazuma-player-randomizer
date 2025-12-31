@@ -1,0 +1,664 @@
+﻿Inagle ID;Image;Name (Romaji);Name (Localised);Gender;Position;Alt Position;Element;Moveset;Alt Moveset;First 3;Kick;Control;Technique;Pressure;Physical;Agility;Intelligence
+2;#NAME?;Shuya Goenji;Axel Blaze;男 (Male);FW;MF;火 (Fire);"Fireball Screw
+Maximum Fire
+Grand Fire
+Fireball Screw
+Grand Fire
+Burning Overdrive";"Fireball Screw
+Maximum Fire
+Grand Fire
+Scorching Tackle
+Ignited Steal
+Elemental Catalyst";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+1163;#NAME?;Shiro Fubuki;Shawn Froste;男 (Male);FW;MF;風 (Wind);"Eternal Blizzard
+Legendary Wolf
+Snow Angel
+Eternal Blizzard
+Legendary Wolf
+Burning Overdrive";"Eternal Blizzard
+Legendary Wolf
+Snow Angel
+Land of Ice
+Eternal Blizzard
+Elemental Catalyst";For players of the same position, Shot AT +3.5%;158;156;141;127;122;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+1133;#NAME?;Gran;Xene;男 (Male);FW;MF;火 (Fire);"Meteor Blade
+Southern Cross
+Supernova
+Meteor Blade
+Supernova
+Instant Burst";"Meteor Blade
+Southern Cross
+Supernova
+Southern Cross
+Supernova
+Instant Burst";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+1913;#NAME?;Fidio Ardena;Paolo Bianchi;男 (Male);FW;MF;林 (Forest);"Odin Sword
+Divine Arrows
+Athena's Anthem
+Odin Sword
+Odin Sword
+Instant Burst";"Odin Sword
+Divine Arrows
+Athena's Anthem
+Double Touch
+Odin Sword
+Instant Burst";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+2077;#NAME?;Badapp Sleed;Bash Lancer;男 (Male);FW;MF;林 (Forest);"Doom Spear
+Foul Offence 3
+Doom Break
+Doom Break
+Doom Break
+Burning Overdrive";"Doom Spear
+Foul Offence 3
+Doom Break
+Field of Force
+Doom Break
+Elemental Catalyst";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+2433;#NAME?;Kyosuke Tsurugi;Victor Blade;男 (Male);FW;MF;火 (Fire);"Doom Dive Drive
+Supernatural Strike
+Fire Tornado DD
+Supernatural Strike
+Supernatural Strike
+Lancelot";"Doom Dive Drive
+Supernatural Strike
+Fire Tornado DD
+Supernatural Strike
+Supernatural Strike
+Lancelot";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+2700;#NAME?;Hakuryu;Bailong;男 (Male);FW;MF;風 (Wind);"White Hurricane
+Zero Magnum
+Dragon Drive
+Dragon Drive
+Dragon Drive
+White Wyvern";"White Hurricane
+Zero Magnum
+Dragon Drive
+Dragon Drive
+Ozone Flayer
+White Wyvern";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+2711;#NAME?;Shuu;Tezcat;男 (Male);FW;MF;林 (Forest);"Black Ash
+Zero Magnum
+Side Swipe
+Black Ash
+Zero Magnum
+Black Butcher";"Black Ash
+Zero Magnum
+Side Swipe
+Side Swipe
+Criss-Cross
+Black Butcher";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+3479;#NAME?;Fei Rune;Fei Rune;男 (Male);FW;MF;林 (Forest);"Bouncing Bunny
+Ozone Flayer
+Splitting Hares
+Splitting Hares
+Splitting Hares
+Mix 'n' Match: Big";"Bouncing Bunny
+Ozone Flayer
+Splitting Hares
+Splitting Hares
+Dance on Air
+Mix 'n' Match: Big";For players of the same position, Shot AT +3.5%;158;156;141;127;122;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+3502;#NAME?;Alpha;Alpha;男 (Male);FW;MF;火 (Fire);"Spin Meister
+Blast Mine
+Omega Assault
+Spin Meister
+Spin Meister
+Feng-Huang";"Spin Meister
+Blast Mine
+Omega Assault
+Blast Mine
+Spin Meister
+Feng-Huang";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+3512;#NAME?;Beta;Beta;女 (Female);FW;MF;風 (Wind);"Fission and Fusion
+Spin Out
+Omega Assault
+Omega Assault
+Omega Assault
+Athene";"Fission and Fusion
+Spin Out
+Omega Assault
+Spin Out
+Omega Assault
+Athene";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+3518;#NAME?;Gamma;Gamma;男 (Male);FW;MF;林 (Forest);"Atomic Spin
+Acrobotics
+Omega Assault
+Atomic Spin
+Atomic Spin
+Lycaon";"Atomic Spin
+Acrobotics
+Omega Assault
+Frosticle
+Atomic Spin
+Lycaon";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+3568;#NAME?;Zanark Avalonic;Zanark Avalonic;男 (Male);FW;MF;山 (Mountain);"Disaster Strike
+Bungee Ball Burst
+Fire Drill
+Disaster Strike
+Disaster Strike
+Mix 'n' Match: Zeta";"Disaster Strike
+Bungee Ball Burst
+Fire Drill
+Bungee Ball Burst
+Fire Drill
+Mix 'n' Match: Zeta";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+3645;#NAME?;Saryu Evan;Simeon Ayp;男 (Male);FW;MF;山 (Mountain);"Shell Burst
+Decoy Deploy
+Dragon Drive
+Shell Burst
+Decoy Deploy
+Mix 'n' Match: S Gene";"Shell Burst
+Decoy Deploy
+Dragon Drive
+Shell Burst
+Decoy Deploy
+Mix 'n' Match: S Gene";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+4853;#NAME?;Haru Endo;Harper Evans;男 (Male);FW;GK;山 (Mountain);"Meteoric Fire Tornado
+Inazuma Break
+Bahamut Crash
+Meteoric Fire Tornado
+Meteoric Fire Tornado
+Victory Genie";"Meteoric Fire Tornado
+Inazuma Break
+Bahamut Crash
+God Hand
+God Hand
+Victory Genie";For nearby players, Shot AT +3.5%;158;156;141;127;122;116;139
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Shot AT +8%;;;;;;;
+4818;#NAME?;Joji Sakurazaki;Briar Bloomhurst;男 (Male);FW;DF;山 (Mountain);"Force Flash
+Spring Thunderclap
+Cyclone
+Spring Thunderclap
+Spring Thunderclap
+Burning Overdrive";"Force Flash
+Spring Thunderclap
+Cyclone
+Cyclone
+Spring Thunderclap
+Ironclad Guardian";For players of the same element, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On your half of the pitch, Team Focus AT & DF +1%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+2432;#NAME?;Tenma Matsukaze;Arion Sherwind;男 (Male);MF;FW;風 (Wind);"Tornado Tunnel
+Triple Threat
+Ultimate Eleven Assault
+Cyclone Sprint
+Ultimate Eleven Assault
+Griffin";"Tornado Tunnel
+Triple Threat
+Ultimate Eleven Assault
+Triple Threat
+Ultimate Eleven Assault
+Griffin";On your half of the pitch, Team Focus AT & DF +1%;139;160;160;121;117;116;144
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+29;#NAME?;Yuto Kido;Jude Sharp;男 (Male);MF;FW;風 (Wind);"Field of Force
+Emperor Penguin No. 3
+Prime Legend
+Illusory Ball
+Emperor Penguin No. 3
+Instant Burst";"Field of Force
+Emperor Penguin No. 3
+Prime Legend
+Emperor Penguin No. 3
+Emperor Penguin No. 3
+Instant Burst";On your half of the pitch, Team Focus AT & DF +1%;144;156;151;127;127;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+15;#NAME?;Kazuya Ichinose;Erik Eagle;男 (Male);MF;FW;林 (Forest);"Pegasus Shot
+The Ikaros
+Grand Fenrir
+Flame Dance
+Pegasus Shot
+Elemental Catalyst";"Pegasus Shot
+The Ikaros
+Grand Fenrir
+Pegasus Shot
+Pegasus Shot
+Burning Overdrive";On your half of the pitch, Team Focus AT & DF +1%;144;156;151;127;127;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+185;#NAME?;Terumi Afuro;Byron Love;男 (Male);MF;FW;林 (Forest);"God Break
+Heaven's Time
+Chaos Break
+Chaos Break
+Heaven's Time
+Instant Burst";"God Break
+Heaven's Time
+Chaos Break
+Chaos Break
+Chaos Break
+Instant Burst";On your half of the pitch, Team Focus AT & DF +1%;144;156;151;127;127;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+1773;#NAME?;Akio Fudo;Caleb Stonewall;男 (Male);MF;FW;火 (Fire);"Field of Force
+No Escape
+Emperor Penguin No. 3
+Emperor Penguin No. 3
+Field of Force
+Elemental Catalyst";"Field of Force
+No Escape
+Emperor Penguin No. 3
+Emperor Penguin No. 3
+Emperor Penguin No. 3
+Elemental Catalyst";On your half of the pitch, Team Focus AT & DF +1%;144;156;151;127;127;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+1066;#NAME?;Reze;Janus;男 (Male);MF;FW;林 (Forest);"Astro Break
+Lightning Bolt
+Cosmic Blast
+Lightning Bolt
+Cosmic Blast
+Elemental Catalyst";"Astro Break
+Lightning Bolt
+Cosmic Blast
+Cosmic Blast
+Cosmic Blast
+Elemental Catalyst";On your half of the pitch, Team Focus AT & DF +1%;144;156;151;127;127;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+2434;#NAME?;Takuto Shindo;Riccardo Di Rigo;男 (Male);MF;DF;林 (Forest);"Fortissimo
+Brimstone Rain
+Athena's Anthem
+Fortissimo
+Fortissimo
+Maestro";"Fortissimo
+Brimstone Rain
+Athena's Anthem
+Fortissimo
+Fortissimo
+Maestro";On your half of the pitch, Team Focus AT & DF +1%;144;156;151;127;127;116;139
+;;;;;;;;;;When a player of the same element is nearby, Own Castle Wall DF +7%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Focus AT & DF +8%;;;;;;;
+5;#NAME?;Heigoro Kabeyama;Jack Wallside;男 (Male);DF;MF;山 (Mountain);"The Wall
+The Mountain
+Wall of Atlantis
+The Wall
+The Mountain
+Ironclad Guardian";"The Wall
+The Mountain
+Wall of Atlantis
+The Wall
+The Mountain
+Elemental Catalyst";On your half of the pitch, Team Focus AT & DF +1%;123;129;130;141;146;127;158
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Castle Wall DF +5%;;;;;;;
+6;#NAME?;Ichirota Kazemaru;Nathan Swift;男 (Male);DF;MF;風 (Wind);"Wind God's Dance
+Whirlwind Drop
+Spinning Cut
+Spinning Cut
+Whirlwind Drop
+Ironclad Guardian";"Wind God's Dance
+Whirlwind Drop
+Spinning Cut
+Wind God's Dance
+Whirlwind Drop
+Elemental Catalyst";On your half of the pitch, Team Focus AT & DF +1%;123;129;130;141;146;127;158
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Castle Wall DF +5%;;;;;;;
+1770;#NAME?;Seiya Tobitaka;Archer Hawkins;男 (Male);DF;MF;風 (Wind);"Vac Attack
+Foul Offence 3
+Hurricane Arrows
+Vac Attack
+Vac Attack
+Ironclad Guardian";"Vac Attack
+Foul Offence 3
+Hurricane Arrows
+Vac Attack
+Vac Attack
+Elemental Catalyst";On your half of the pitch, Team Focus AT & DF +1%;123;129;130;141;146;127;158
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Castle Wall DF +5%;;;;;;;
+3482;#NAME?;Kinako Nanobana;Goldie Lemmon;女 (Female);DF;FW;火 (Fire);"Goopy Gloopy Goo
+Dough Ray Me
+Dance on Air
+Goopy Gloopy Goo
+Dough Ray Me
+Mix 'n' Match: Q. Dragons";"Goopy Gloopy Goo
+Dough Ray Me
+Dance on Air
+Dough Ray Me
+Dough Ray Me
+Mix 'n' Match: Q. Dragons";When a player of the same element is nearby, Own Castle Wall DF +7%;123;129;130;141;146;127;158
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;On your half of the pitch, Own Focus AT & DF +7%;;;;;;;
+2436;#NAME?;Ranmaru Kirino;Gabriel Garcia;男 (Male);DF;MF;林 (Forest);"Mystifying Mist
+Mystic Mist
+Southern Cross
+Mystic Mist
+Mystic Mist
+Mix 'n' Match: Joan";"Mystifying Mist
+Mystic Mist
+Southern Cross
+Southern Cross
+Mystic Mist
+Mix 'n' Match: Joan";On your half of the pitch, Team Focus AT & DF +1%;123;129;130;141;146;127;158
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Castle Wall DF +5%;;;;;;;
+1;#NAME?;Mamoru Endo;Mark Evans;男 (Male);GK;FW;山 (Mountain);"God Hand V
+God Catch
+Omega Hand
+Omega Hand
+God Catch
+Keeper's Grit";"God Hand V
+God Catch
+Omega Hand
+Megaton Head
+The Earth
+Burning Overdrive";For players of the same element, Castle Wall DF +1.5%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Shot AT +3.5%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+1223;#NAME?;Yuki Tachimukai;Darren LaChance;男 (Male);GK;MF;林 (Forest);"Majin the Hand
+Mugen the Hand
+Fiend Hand
+Mugen the Hand
+Fiend Hand
+Keeper's Grit";"Majin the Hand
+Mugen the Hand
+Fiend Hand
+Flurry Dash
+Cyclone
+Elemental Catalyst";For players of different elements, Castle Wall DF +1%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+1068;#NAME?;Dezarm;Dvalin;男 (Male);GK;FW;火 (Fire);"Drill Smasher
+Shot Stopper
+Gungnir
+Drill Smasher
+Gungnir
+Keeper's Grit";"Drill Smasher
+Shot Stopper
+Gungnir
+Gungnir
+Gungnir
+Burning Overdrive";For players of the same element, Castle Wall DF +1.5%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Shot AT +3.5%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+1954;#NAME?;Rococo Ulpa;Hector Helio;男 (Male);GK;MF;山 (Mountain);"God Hand X
+Soul Hand
+X Blast
+Soul Hand
+X Blast
+Keeper's Grit";"God Hand X
+Soul Hand
+X Blast
+Illusory Ball
+X Blast
+Elemental Catalyst";For players of different elements, Castle Wall DF +1%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+2437;#NAME?;Taichi Sangoku;Samguk Han;男 (Male);GK;MF;火 (Fire);"Fingers of Gaia
+Capable Hands
+God Hand X
+Capable Hands
+Capable Hands
+Keeper's Grit";"Fingers of Gaia
+Capable Hands
+God Hand X
+Flurry Dash
+Cyclone
+Elemental Catalyst";For players of different elements, Castle Wall DF +1%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+2674;#NAME?;Yamato Senguji;Quentin Cinquedea;男 (Male);GK;MF;火 (Fire);"Shot Stopper
+Gravity Point
+God Hand X
+Gravity Point
+Shot Stopper
+White King";"Shot Stopper
+Gravity Point
+God Hand X
+Ball Lightning
+Athena's Anthem
+White King";For players of different elements, Castle Wall DF +1%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+2435;#NAME?;Shinsuke Nishizono;Jean-Pierre Lapin;男 (Male);GK;DF;山 (Mountain);"Jumping Whack
+God Hand V
+Mugen the Hand
+Jumping Whack
+Jumping Whack
+Mix 'n' Match: Liu Bei";"Jumping Whack
+God Hand V
+Mugen the Hand
+Pancake Defence
+Pancake Defence
+Mix 'n' Match: Liu Bei";For nearby players, Castle Wall DF +3.5%;123;135;127;141;146;150;114
+;;;;;;;;;;On your half of the pitch, Own Focus AT & DF +7%;;;;;;;
+;;;;;;;;;;For players of different elements, Castle Wall DF +1%;;;;;;;
+1769;#NAME?;Toramaru Utsunomiya;Austin Hobbes;男 (Male);FW;MF;林 (Forest);"Tiger Drive
+Tiger Storm
+Gladius Arch
+Gladius Arch
+Gladius Arch
+Burning Overdrive";"Tiger Drive
+Tiger Storm
+Gladius Arch
+Double Touch
+Gladius Arch
+Burning Overdrive";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+1245;#NAME?;Josuke Tsunami;Hurley Kane;男 (Male);DF;FW;風 (Wind);"Spinning Cut
+Air Ride
+The Typhoon
+Spinning Cut
+The Typhoon
+Ironclad Guardian";"Spinning Cut
+Air Ride
+The Typhoon
+The Typhoon
+The Typhoon
+Burning Overdrive";On your half of the pitch, Team Focus AT & DF +1%;123;129;130;141;146;127;158
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+20;#NAME?;Kojiro Genda;Joseph King;男 (Male);GK;MF;火 (Fire);"Full Power Shield
+Drill Smasher
+Beast Fang
+Beast Fang
+Beast Fang
+Keeper's Grit";"Full Power Shield
+Drill Smasher
+Beast Fang
+Infinite Wall
+Infinite Wall
+Ironclad Guardian";For players of different elements, Castle Wall DF +1%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+3945;#NAME?;Hayato Matatagi;Falco Flashman;男 (Male);FW;MF;風 (Wind);"Parkour Power
+Dark Tornado
+Black Dawn
+Parkour Power
+Black Dawn
+Falcon Totem";"Parkour Power
+Dark Tornado
+Black Dawn
+Air Ride
+Black Dawn
+Falcon Totem";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+4101;#NAME?;Bitway Ozrock;Ozrock Boldar;男 (Male);FW;MF;風 (Wind);"Dark Energy Star
+Stargazer
+Judgement Ray
+Stargazer
+Stargazer
+Ixaal Totem";"Dark Energy Star
+Stargazer
+Judgement Ray
+Judgement Ray
+Stargazer
+Ixaal Totem";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+4124;#NAME?;Aclous Obies;Arculus Orbes;男 (Male);FW;MF;風 (Wind);"Orbital Drive
+Psi Arrow
+Supernova
+Galactic GigaFall
+Orbital Drive
+Begiran Totem";"Orbital Drive
+Psi Arrow
+Supernova
+Psi Arrow
+Orbital Drive
+Begiran Totem";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+4112;#NAME?;Sarges Rougue;Circulus Corona;男 (Male);FW;MF;火 (Fire);"Loyal Heart Shot
+Atlas Sword
+Big Bang
+Galactic GigaFall
+Loyal Heart Shot
+Gryphbang Totem";"Loyal Heart Shot
+Atlas Sword
+Big Bang
+Galactic GigaFall
+Atlas Sword
+Gryphbang Totem";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+1103;#NAME?;Burn;Torch;男 (Male);FW;MF;火 (Fire);"Flame Veil
+Atomic Flare
+Fire Blizzard
+Atomic Flare
+Fire Blizzard
+Burning Overdrive";"Flame Veil
+Atomic Flare
+Fire Blizzard
+Atomic Flare
+Flame Veil
+Elemental Catalyst";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+1120;#NAME?;Gazelle;Gazelle;男 (Male);FW;MF;風 (Wind);"Water Veil
+Northern Impact
+Fire Blizzard
+Northern Impact
+Fire Blizzard
+Burning Overdrive";"Water Veil
+Northern Impact
+Fire Blizzard
+Northern Impact
+Water Veil
+Elemental Catalyst";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+4071;#NAME?;Ryugel Balan;Ruger Baran;男 (Male);FW;MF;林 (Forest);"Scream of Eden
+Illusory Ball
+Dark Tornado
+Scream of Eden
+Scream of Eden
+Pelion Totem";"Scream of Eden
+Illusory Ball
+Dark Tornado
+Illusory Ball
+Scream of Eden
+Pelion Totem";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+4072;#NAME?;Gandares Balan;Gandares Baran;男 (Male);FW;MF;林 (Forest);"Scream of Eden
+Low Scythe Slice
+Doom Spear
+Scream of Eden
+Scream of Eden
+Belion Totem";"Scream of Eden
+Low Scythe Slice
+Doom Spear
+Low Scythe Slice
+Scream of Eden
+Belion Totem";For players of the same position, Shot AT +3.5%;168;160;146;121;117;116;129
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Shot AT +8%;;;;;;;
+1132;#NAME?;Ulvida;Bellatrix;女 (Female);MF;FW;風 (Wind);"Meteor Shower
+Space Penguin
+Super Elastico
+Meteor Shower
+Space Penguin
+Instant Burst";"Meteor Shower
+Space Penguin
+Super Elastico
+Space Penguin
+Space Penguin
+Instant Burst";On your half of the pitch, Team Focus AT & DF +1%;139;160;160;121;117;116;144
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
+3946;#NAME?;Munemasa Ibuki;Terry Archibald;男 (Male);GK;MF;風 (Wind);"Wild Dunk
+Claw de Force
+Dragon Rage Dunk
+Wild Dunk
+Dragon Rage Dunk
+Mammoth Totem";"Wild Dunk
+Claw de Force
+Dragon Rage Dunk
+Killer Slide
+Killer Slide
+Mammoth Totem";For players of different elements, Castle Wall DF +1%;123;135;127;141;146;150;114
+;;;;;;;;;;For nearby players, Focus AT & DF +2%;;;;;;;
+;;;;;;;;;;For nearby players, Castle Wall DF +3.5%;;;;;;;
+3948;#NAME?;Ryuji Kusaka;Buddy Fury;男 (Male);MF;DF;山 (Mountain);"Menacing Glare
+Driving Header
+Burning Rage Mode
+Iron Wall
+Driving Header
+Grizzly Totem";"Menacing Glare
+Driving Header
+Burning Rage Mode
+Iron Wall
+Iron Wall
+Grizzly Totem";On your half of the pitch, Team Focus AT & DF +1%;139;160;160;121;117;116;144
+;;;;;;;;;;When a player of the same element is nearby, Own Castle Wall DF +7%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Focus AT & DF +8%;;;;;;;
+4038;#NAME?;Powai Picholi;Plink Powai;女 (Female);MF;DF;風 (Wind);"Hydro Flow
+Waterfall
+Jackknife
+Hydro Flow
+Jackknife
+Elemental Catalyst";"Hydro Flow
+Waterfall
+Jackknife
+Waterfall
+Jackknife
+Ironclad Guardian";On your half of the pitch, Team Focus AT & DF +1%;139;160;160;121;117;116;144
+;;;;;;;;;;When a player of the same element is nearby, Own Castle Wall DF +7%;;;;;;;
+;;;;;;;;;;When a player of the same element is nearby, Own Focus AT & DF +8%;;;;;;;
+4045;#NAME?;Hillary Flehl;Rondula Flehl;女 (Female);MF;FW;風 (Wind);"Jackknife
+Holy Roller
+Jackknife
+Holy Roller
+Jackknife
+Phoenichias Totem";"Jackknife
+Holy Roller
+Jackknife
+Holy Roller
+Holy Roller
+Phoenichias Totem";On your half of the pitch, Team Focus AT & DF +1%;144;156;151;127;127;116;139
+;;;;;;;;;;On the opposition's half of the pitch, Own Shot AT +8%;;;;;;;
+;;;;;;;;;;When a player of a different element is nearby, Own Focus AT & DF +7%;;;;;;;
