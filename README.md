@@ -65,7 +65,8 @@ npm run dev
 ## 📝 TODO
 
 - [ ] **Hissatsu Implementation**: Add support for special moves (Hissatsu techniques) and link them to characters.
+- [ ] **Hyper Moves Implementation**: Add support for special moves (Hyper Moves) and link them to characters (Handmade).
 - [ ] **Team Builder**: Implement functionality for users to select and build custom teams.
-- [ ] **Advanced Filtering**: Add filters for elements (Fire, Wind, etc.), positions, and stats.
+- [x] **Advanced Filtering**: Add filters for elements (Fire, Wind, etc.), positions, and stats.
 - [ ] **Scout System**: Create a "gacha" or random scout mechanic to obtain players.
 - [ ] **UI Polish**: Improve the frontend design with responsive layouts and better assets.
