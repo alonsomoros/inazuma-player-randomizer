@@ -2,7 +2,7 @@ import React from 'react';
 
 export const MainLayout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
-    <div className="min-h-screen relative bg-inazuma-dark flex flex-col font-orbitron overflow-y-auto">
+    <div className="min-h-screen relative bg-inazuma-dark flex flex-col font-orbitron">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-hex-pattern opacity-10 pointer-events-none"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-inazuma-blue/10 to-transparent pointer-events-none"></div>

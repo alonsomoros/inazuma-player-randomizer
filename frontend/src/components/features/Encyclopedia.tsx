@@ -107,9 +107,9 @@ export const Encyclopedia: React.FC = () => {
           <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-inazuma-blue w-6 h-6" />
         </div>
 
-        {/* Filter Badges */}
-        <div className="flex flex-wrap gap-4 items-center bg-inazuma-dark/50 p-4 rounded-lg border border-inazuma-blue/20">
-          <div className="flex items-center gap-2 text-inazuma-blue font-bold mr-4">
+        {/* Filter Badges - Use Grid for better width adaptation */}
+        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-3 bg-inazuma-dark/50 p-4 rounded-lg border border-inazuma-blue/20">
+          <div className="col-span-full lg:col-span-1 flex items-center gap-2 text-inazuma-blue font-bold">
             <Filter size={20} /> FILTERS
           </div>
           
@@ -118,8 +118,7 @@ export const Encyclopedia: React.FC = () => {
           <FilterSelect value={activeGender} onChange={setActiveGender} label="Gender" options={genders} />
           <FilterSelect value={activeTeam} onChange={setActiveTeam} label="Team" options={teams} />
 
-
-          <div className="ml-auto text-inazuma-yellow text-sm font-light">
+          <div className="col-span-full lg:col-span-1 lg:ml-auto flex items-center text-inazuma-yellow text-sm font-light">
              Found: {totalElements} | Page {currentPage + 1}/{totalPages || 1}
           </div>
         </div>
@@ -211,7 +210,7 @@ const FilterSelect = ({ value, onChange, label, options }: { value: string, onCh
   <select 
      value={value} 
      onChange={(e) => onChange(e.target.value)}
-     className={`bg-inazuma-dark border px-2 sm:px-3 py-1 text-sm sm:text-base rounded focus:outline-none focus:bg-inazuma-blue/20 hover:border-inazuma-blue transition-colors ${value !== 'All' ? 'border-inazuma-yellow text-inazuma-yellow shadow-[0_0_5px_rgba(255,255,0,0.3)]' : 'border-inazuma-blue/50 text-white'}`}
+     className={`flex-1 min-w-[140px] bg-inazuma-dark border px-3 py-2 text-sm sm:text-base rounded-lg focus:outline-none focus:bg-inazuma-blue/20 hover:border-inazuma-blue transition-all ${value !== 'All' ? 'border-inazuma-yellow text-inazuma-yellow shadow-[0_0_8px_rgba(255,255,0,0.2)]' : 'border-inazuma-blue/50 text-white'}`}
   >
      {options.map(opt => <option key={opt} value={opt} className="text-white bg-inazuma-dark">{label}: {opt}</option>)}
   </select>
@@ -222,7 +221,7 @@ const ElementSelect = ({ value, onChange, options }: { value: string, onChange: 
   <select 
      value={value} 
      onChange={(e) => onChange(e.target.value)}
-     className={`bg-inazuma-dark border px-2 sm:px-3 py-1 text-sm sm:text-base rounded focus:outline-none focus:bg-inazuma-blue/20 hover:border-inazuma-blue transition-colors ${value !== 'All' ? 'border-inazuma-yellow text-inazuma-yellow shadow-[0_0_5px_rgba(255,255,0,0.3)]' : 'border-inazuma-blue/50 text-white'}`}
+     className={`flex-1 min-w-[140px] bg-inazuma-dark border px-3 py-2 text-sm sm:text-base rounded-lg focus:outline-none focus:bg-inazuma-blue/20 hover:border-inazuma-blue transition-all ${value !== 'All' ? 'border-inazuma-yellow text-inazuma-yellow shadow-[0_0_8px_rgba(255,255,0,0.2)]' : 'border-inazuma-blue/50 text-white'}`}
   >
      {options.map(opt => <option key={opt.value} value={opt.value} className="text-white bg-inazuma-dark">Element: {opt.display}</option>)}
   </select>
