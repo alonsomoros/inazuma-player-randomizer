@@ -59,7 +59,7 @@ export const ScoutView: React.FC = () => {
   };
 
   return (
-    <div className="w-full flex flex-col items-center justify-center min-h-[60vh]">
+    <div className="w-full flex flex-col items-center justify-center min-h-[60vh] px-4">
       
       {/* Central Scout Button Container */}
       <div className="relative group">
@@ -84,9 +84,9 @@ export const ScoutView: React.FC = () => {
           onClick={handleRandomScout}
           disabled={isAnimating || isLoading || totalCount === 0}
           className={`
-            relative z-10 w-64 h-64 rounded-full flex items-center justify-center
+            relative z-10 w-48 h-48 sm:w-64 sm:h-64 rounded-full flex items-center justify-center
             bg-inazuma-dark border-4 border-inazuma-blue
-            text-4xl font-black italic text-inazuma-blue
+            text-3xl sm:text-4xl font-black italic text-inazuma-blue
             shadow-[0_0_30px_#00f2ff]
             transition-all duration-300
             hover:scale-105 hover:shadow-[0_0_60px_#00f2ff] hover:text-white hover:bg-inazuma-blue
@@ -101,7 +101,7 @@ export const ScoutView: React.FC = () => {
         </button>
       </div>
 
-      <p className="mt-8 text-inazuma-blue/60 text-lg uppercase tracking-widest animate-pulse">
+      <p className="mt-6 sm:mt-8 text-inazuma-blue/60 text-base sm:text-lg uppercase tracking-widest animate-pulse text-center">
         {isAnimating ? 'Searching Database...' : 'Press to Scout Player'}
       </p>
 

@@ -78,13 +78,20 @@ export const Encyclopedia: React.FC = () => {
       .catch(err => console.error('Failed to fetch teams', err));
   }, []);
 
-  // Static lists for dropdowns
-  const elements = ['All', 'Fire', 'Wind', 'Wood', 'Earth'];
+  // Element mapping: Display name -> API value
+  const elementOptions = [
+    { display: 'All', value: 'All' },
+    { display: 'Fire', value: 'Fire' },
+    { display: 'Wind', value: 'Wind' },
+    { display: 'Forest (Wood)', value: 'Wood' },
+    { display: 'Mountain (Earth)', value: 'Earth' }
+  ];
+  
   const positions = ['All', 'GK', 'DF', 'MF', 'FW'];
   const genders = ['All', 'Male', 'Female']; 
 
   return (
-    <div className="w-full h-full flex flex-col p-4 max-w-7xl mx-auto overflow-hidden">
+    <div className="w-full h-full flex flex-col p-2 sm:p-4 max-w-7xl mx-auto overflow-auto">
       {/* Search & Filter Bar */}
       <div className="mb-4 space-y-4 flex-shrink-0">
         
@@ -106,7 +113,7 @@ export const Encyclopedia: React.FC = () => {
             <Filter size={20} /> FILTERS
           </div>
           
-          <FilterSelect value={activeElement} onChange={setActiveElement} label="Element" options={elements} />
+          <ElementSelect value={activeElement} onChange={setActiveElement} options={elementOptions} />
           <FilterSelect value={activePosition} onChange={setActivePosition} label="Pos" options={positions} />
           <FilterSelect value={activeGender} onChange={setActiveGender} label="Gender" options={genders} />
           <FilterSelect value={activeTeam} onChange={setActiveTeam} label="Team" options={teams} />
@@ -125,7 +132,7 @@ export const Encyclopedia: React.FC = () => {
         </div>
       ) : (
         <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar min-h-0">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 pb-4">
+          <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 sm:gap-4 pb-4">
             {characters.map(char => (
               <motion.div
                 layoutId={char.id.toString()}
@@ -204,8 +211,19 @@ const FilterSelect = ({ value, onChange, label, options }: { value: string, onCh
   <select 
      value={value} 
      onChange={(e) => onChange(e.target.value)}
-     className={`bg-inazuma-dark border px-3 py-1 rounded focus:outline-none focus:bg-inazuma-blue/20 hover:border-inazuma-blue transition-colors ${value !== 'All' ? 'border-inazuma-yellow text-inazuma-yellow shadow-[0_0_5px_rgba(255,255,0,0.3)]' : 'border-inazuma-blue/50 text-white'}`}
+     className={`bg-inazuma-dark border px-2 sm:px-3 py-1 text-sm sm:text-base rounded focus:outline-none focus:bg-inazuma-blue/20 hover:border-inazuma-blue transition-colors ${value !== 'All' ? 'border-inazuma-yellow text-inazuma-yellow shadow-[0_0_5px_rgba(255,255,0,0.3)]' : 'border-inazuma-blue/50 text-white'}`}
   >
      {options.map(opt => <option key={opt} value={opt} className="text-white bg-inazuma-dark">{label}: {opt}</option>)}
+  </select>
+);
+
+// Element select with display name mapping
+const ElementSelect = ({ value, onChange, options }: { value: string, onChange: (v: string) => void, options: { display: string, value: string }[] }) => (
+  <select 
+     value={value} 
+     onChange={(e) => onChange(e.target.value)}
+     className={`bg-inazuma-dark border px-2 sm:px-3 py-1 text-sm sm:text-base rounded focus:outline-none focus:bg-inazuma-blue/20 hover:border-inazuma-blue transition-colors ${value !== 'All' ? 'border-inazuma-yellow text-inazuma-yellow shadow-[0_0_5px_rgba(255,255,0,0.3)]' : 'border-inazuma-blue/50 text-white'}`}
+  >
+     {options.map(opt => <option key={opt.value} value={opt.value} className="text-white bg-inazuma-dark">Element: {opt.display}</option>)}
   </select>
 );
