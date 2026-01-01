@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-orbitron bg-inazuma-dark text-white overflow-hidden h-screen;
+    @apply font-orbitron bg-inazuma-dark text-white min-h-screen;
   }
 }
 
