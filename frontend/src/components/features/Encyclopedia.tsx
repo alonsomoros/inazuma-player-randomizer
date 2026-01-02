@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { Search, Filter, X, ChevronRight, LayoutGrid } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { Character, CharacterFilters } from '../../types';
@@ -289,22 +290,22 @@ export const Encyclopedia: React.FC = () => {
       </div>
 
       {/* Mobile Filters Drawer */}
-      <AnimatePresence>
-        {isMobileFiltersOpen && (
-          <>
+      {isMobileFiltersOpen && createPortal(
+        <AnimatePresence mode="wait">
+          <div className="fixed inset-0 z-[9999] md:hidden">
             <motion.div 
                initial={{ opacity: 0 }}
                animate={{ opacity: 1 }}
                exit={{ opacity: 0 }}
                onClick={() => setIsMobileFiltersOpen(false)}
-               className="fixed inset-0 bg-black/80 backdrop-blur-sm z-[100] md:hidden"
+               className="absolute inset-0 bg-black/80 backdrop-blur-md"
             />
             <motion.div 
                initial={{ x: '100%' }}
                animate={{ x: 0 }}
                exit={{ x: '100%' }}
                transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-               className="fixed right-0 top-0 h-full w-[85%] max-w-sm bg-inazuma-dark border-l border-inazuma-blue/30 z-[101] p-6 shadow-2xl md:hidden flex flex-col"
+               className="absolute right-0 top-0 h-full w-[85%] max-w-sm bg-inazuma-dark border-l border-inazuma-blue/30 p-6 shadow-2xl flex flex-col"
             >
               <div className="flex items-center justify-between mb-8">
                 <div className="flex items-center gap-2">
@@ -330,9 +331,10 @@ export const Encyclopedia: React.FC = () => {
                 Show {totalElements} Players
               </button>
             </motion.div>
-          </>
-        )}
-      </AnimatePresence>
+          </div>
+        </AnimatePresence>,
+        document.body
+      )}
 
       <CharacterModal 
         character={selectedChar} 

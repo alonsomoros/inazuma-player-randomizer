@@ -1,4 +1,5 @@
 import React from 'react';
+import { createPortal } from 'react-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, User, Activity, Zap, Shield, Footprints, Brain, LayoutGrid, ChevronDown } from 'lucide-react'; 
 import { getElementIcon, getGenderIcon } from '../../utils/assets';
@@ -11,24 +12,22 @@ interface CharacterModalProps {
   onClose: () => void;
 }
 
-// ... imports
-
 export const CharacterModal: React.FC<CharacterModalProps> = ({ character, isOpen, onClose }) => {
   const [showStats, setShowStats] = useState(false);
 
   if (!character) return null;
 
-  return (
+  const modalContent = (
     <AnimatePresence>
       {isOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-10 overflow-hidden">
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4 md:p-10 overflow-hidden">
           {/* Backdrop - Covers everything and blurs the background */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="absolute inset-0 bg-black/85 backdrop-blur-md cursor-pointer"
+            className="absolute inset-0 bg-black/90 backdrop-blur-lg cursor-pointer"
           />
 
           {/* Modal Container - Max height and scrollable */}
@@ -37,7 +36,7 @@ export const CharacterModal: React.FC<CharacterModalProps> = ({ character, isOpe
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.9, opacity: 0, y: 20 }}
             transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-            className="relative w-full max-w-5xl bg-inazuma-dark/95 border-2 border-inazuma-blue text-white shadow-[0_0_80px_rgba(0,242,255,0.2)] clip-diagonal max-h-[90vh] flex flex-col overflow-hidden"
+            className="relative w-full max-w-5xl bg-inazuma-dark/95 border-2 border-inazuma-blue text-white shadow-[0_0_100px_rgba(0,242,255,0.4)] clip-diagonal max-h-[90vh] flex flex-col overflow-hidden"
           >
             {/* Design Elements */}
             <div className="absolute top-0 right-0 w-48 h-48 bg-inazuma-blue/5 transform rotate-45 translate-x-24 -translate-y-24 pointer-events-none"></div>
@@ -186,6 +185,8 @@ export const CharacterModal: React.FC<CharacterModalProps> = ({ character, isOpe
       )}
     </AnimatePresence>
   );
+
+  return createPortal(modalContent, document.body);
 };
 
 const StatBox = ({ label, value, subValue }: { label: string, value: React.ReactNode, subValue: string }) => (
