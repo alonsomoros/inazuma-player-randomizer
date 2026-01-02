@@ -89,44 +89,24 @@ export const Encyclopedia: React.FC = () => {
   const positions = ['All', 'GK', 'DF', 'MF', 'FW'];
   const genders = ['All', 'Male', 'Female']; 
 
-  const FilterContent = () => (
-    <div className="flex flex-col gap-6 p-1">
-      <div className="space-y-2">
-        <label className="text-xs font-bold text-inazuma-blue/60 uppercase tracking-widest pl-1">Search Player</label>
-        <div className="relative group">
-          <input
-            type="text"
-            placeholder="Name..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-inazuma-dark/40 border border-inazuma-blue/30 text-white pl-10 pr-4 py-2.5 rounded-lg focus:outline-none focus:border-inazuma-blue focus:ring-1 focus:ring-inazuma-blue/50 transition-all placeholder-white/20 font-orbitron text-sm"
-          />
-          <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-inazuma-blue/50 w-4 h-4 group-focus-within:text-inazuma-blue transition-colors" />
-        </div>
-      </div>
-
-      <div className="space-y-4">
-        <label className="text-xs font-bold text-inazuma-blue/60 uppercase tracking-widest pl-1 border-l-2 border-inazuma-blue ml-1">Properties</label>
-        
-        <VerticalSelect label="Element" value={activeElement} onChange={setActiveElement} options={elementOptions.map(o => ({ label: o.display, value: o.value }))} />
-        <VerticalSelect label="Position" value={activePosition} onChange={setActivePosition} options={positions.map(p => ({ label: p, value: p }))} />
-        <VerticalSelect label="Gender" value={activeGender} onChange={setActiveGender} options={genders.map(g => ({ label: g, value: g }))} />
-        <VerticalSelect label="Team" value={activeTeam} onChange={setActiveTeam} options={teams.map(t => ({ label: t, value: t }))} />
-      </div>
-
-      <div className="mt-4 p-4 rounded-xl bg-inazuma-blue/5 border border-inazuma-blue/10">
-        <div className="text-[10px] text-inazuma-blue/40 uppercase font-black mb-1">Database Info</div>
-        <div className="text-xs text-white/60 flex justify-between">
-          <span>Total Players:</span>
-          <span className="text-inazuma-blue font-bold">{totalElements}</span>
-        </div>
-        <div className="text-xs text-white/60 flex justify-between mt-1">
-          <span>Viewing:</span>
-          <span className="text-inazuma-yellow font-bold">{characters.length}</span>
-        </div>
-      </div>
-    </div>
-  );
+  const filterContentProps = {
+    searchQuery,
+    setSearchQuery,
+    activeElement,
+    setActiveElement,
+    activePosition,
+    setActivePosition,
+    activeGender,
+    setActiveGender,
+    activeTeam,
+    setActiveTeam,
+    elementOptions,
+    positions,
+    genders,
+    teams,
+    totalElements,
+    charactersCount: characters.length
+  };
 
   return (
     <div className="w-full max-w-[1800px] mx-auto flex flex-col md:flex-row gap-8 min-h-screen">
@@ -138,7 +118,7 @@ export const Encyclopedia: React.FC = () => {
             <Filter className="text-inazuma-blue w-5 h-5" />
             <h2 className="text-xl font-black italic tracking-tighter text-white">DATACENTER<span className="text-inazuma-blue">_FILTERS</span></h2>
           </div>
-          <FilterContent />
+          <FilterContent {...filterContentProps} />
         </div>
       </aside>
 
@@ -146,7 +126,7 @@ export const Encyclopedia: React.FC = () => {
       <div className="flex-1 flex flex-col">
         
         {/* Mobile Header with Filter Button */}
-        <div className="md:hidden flex items-center justify-between mb-6 bg-inazuma-dark/40 p-4 rounded-xl border border-inazuma-blue/20 backdrop-blur-sm sticky top-20 z-40">
+        <div className="md:hidden flex items-center gap-2 justify-between mb-6 bg-inazuma-dark/40 p-4 rounded-xl border border-inazuma-blue/20 backdrop-blur-sm sticky top-20 z-40">
           <div>
             <h2 className="text-lg font-bold text-white flex items-center gap-2">
               <LayoutGrid size={18} className="text-inazuma-blue" /> ENCYCLOPEDIA
@@ -155,9 +135,9 @@ export const Encyclopedia: React.FC = () => {
           </div>
           <button 
             onClick={() => setIsMobileFiltersOpen(true)}
-            className="flex items-center gap-2 bg-inazuma-blue p-2 px-4 rounded-lg text-black font-bold text-sm shadow-neon-blue active:scale-95 transition-all"
+            className="flex items-center gap-1 bg-inazuma-blue p-2 px-2 rounded-lg text-black font-bold text-sm shadow-neon-blue active:scale-95 transition-all"
           >
-            <Filter size={16} /> FILTERS
+            <Filter size={12} /> FILTERS
           </button>
         </div>
 
@@ -176,7 +156,7 @@ export const Encyclopedia: React.FC = () => {
               {characters.length === 0 ? (
                 <div className="flex flex-col items-center justify-center min-h-[400px] border border-dashed border-inazuma-blue/20 rounded-3xl bg-white/5">
                   <X size={48} className="text-white/10 mb-4" />
-                  <p className="text-white/60 font-orbitron">No players found matching your criteria</p>
+                  <p className="text-white/60 font-orbitron text-center">No players found matching your criteria</p>
                   <button 
                     onClick={() => {
                         setSearchQuery('');
@@ -321,7 +301,7 @@ export const Encyclopedia: React.FC = () => {
               </div>
               
               <div className="flex-1 overflow-y-auto custom-scrollbar">
-                <FilterContent />
+                <FilterContent {...filterContentProps} />
               </div>
               
               <button 
@@ -344,6 +324,82 @@ export const Encyclopedia: React.FC = () => {
     </div>
   );
 };
+
+// Standalone Filter Content Component to prevent focus loss
+interface FilterContentProps {
+  searchQuery: string;
+  setSearchQuery: (v: string) => void;
+  activeElement: string;
+  setActiveElement: (v: string) => void;
+  activePosition: string;
+  setActivePosition: (v: string) => void;
+  activeGender: string;
+  setActiveGender: (v: string) => void;
+  activeTeam: string;
+  setActiveTeam: (v: string) => void;
+  elementOptions: { display: string, value: string }[];
+  positions: string[];
+  genders: string[];
+  teams: string[];
+  totalElements: number;
+  charactersCount: number;
+}
+
+const FilterContent: React.FC<FilterContentProps> = ({
+  searchQuery,
+  setSearchQuery,
+  activeElement,
+  setActiveElement,
+  activePosition,
+  setActivePosition,
+  activeGender,
+  setActiveGender,
+  activeTeam,
+  setActiveTeam,
+  elementOptions,
+  positions,
+  genders,
+  teams,
+  totalElements,
+  charactersCount
+}) => (
+  <div className="flex flex-col gap-6 p-1">
+    <div className="space-y-2">
+      <label className="text-xs font-bold text-inazuma-blue/60 uppercase tracking-widest pl-1">Search Player</label>
+      <div className="relative group">
+        <input
+          type="text"
+          placeholder="Name..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="w-full bg-inazuma-dark/40 border border-inazuma-blue/30 text-white pl-10 pr-4 py-2.5 rounded-lg focus:outline-none focus:border-inazuma-blue focus:ring-1 focus:ring-inazuma-blue/50 transition-all placeholder-white/20 font-orbitron text-sm"
+        />
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-inazuma-blue/50 w-4 h-4 group-focus-within:text-inazuma-blue transition-colors" />
+      </div>
+    </div>
+
+    <div className="space-y-4">
+      <label className="text-xs font-bold text-inazuma-blue/60 uppercase tracking-widest pl-1 border-l-2 border-inazuma-blue ml-1">Properties</label>
+      
+      <VerticalSelect label="Element" value={activeElement} onChange={setActiveElement} options={elementOptions.map(o => ({ label: o.display, value: o.value }))} />
+      <VerticalSelect label="Position" value={activePosition} onChange={setActivePosition} options={positions.map(p => ({ label: p, value: p }))} />
+      <VerticalSelect label="Gender" value={activeGender} onChange={setActiveGender} options={genders.map(g => ({ label: g, value: g }))} />
+      <VerticalSelect label="Team" value={activeTeam} onChange={setActiveTeam} options={teams.map(t => ({ label: t, value: t }))} />
+    </div>
+
+    <div className="mt-4 p-4 rounded-xl bg-inazuma-blue/5 border border-inazuma-blue/10">
+      <div className="text-[10px] text-inazuma-blue/40 uppercase font-black mb-1">Database Info</div>
+      <div className="text-xs text-white/60 flex justify-between">
+        <span>Total Players:</span>
+        <span className="text-inazuma-blue font-bold">{totalElements}</span>
+      </div>
+      <div className="text-xs text-white/60 flex justify-between mt-1">
+        <span>Viewing:</span>
+        <span className="text-inazuma-yellow font-bold">{charactersCount}</span>
+      </div>
+    </div>
+  </div>
+);
 
 // Refactored helper components
 const VerticalSelect = ({ label, value, onChange, options }: { label: string, value: string, onChange: (v: string) => void, options: { label: string, value: string }[] }) => (
